@@ -1,0 +1,35 @@
+2013/01/08 15:47:47 [error] [php] fopen(/var/www/hosts/gigadb.cogini.com/htdocs/protected/scripts/data/lastdataset.txt): failed to open stream: No such file or directory (/var/www/hosts/gigadb.cogini.com/htdocs/protected/commands/AutoSendNotificationCommand.php:57)
+Stack trace:
+#0 unknown(0): AutoSendNotificationCommand->actionNotification()
+#1 /opt/yii-1.1.10.r3566/framework/console/CConsoleCommand.php(141): ReflectionMethod->invokeArgs()
+#2 /opt/yii-1.1.10.r3566/framework/console/CConsoleCommandRunner.php(65): AutoSendNotificationCommand->run()
+#3 /opt/yii-1.1.10.r3566/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#4 /opt/yii-1.1.10.r3566/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /opt/yii-1.1.10.r3566/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/hosts/gigadb.cogini.com/htdocs/protected/yiic.php(7): require_once()
+#7 /var/www/hosts/gigadb.cogini.com/htdocs/protected/yiic(4): require_once()
+
+2013/01/08 15:59:06 [error] [php] fopen(/var/www/hosts/gigadb.cogini.com/htdocs/protected/scripts/data/lastdataset.txt): failed to open stream: No such file or directory (/var/www/hosts/gigadb.cogini.com/htdocs/protected/commands/AutoSendNotificationCommand.php:57)
+Stack trace:
+#0 unknown(0): AutoSendNotificationCommand->actionNotification()
+#1 /opt/yii-1.1.10.r3566/framework/console/CConsoleCommand.php(141): ReflectionMethod->invokeArgs()
+#2 /opt/yii-1.1.10.r3566/framework/console/CConsoleCommandRunner.php(65): AutoSendNotificationCommand->run()
+#3 /opt/yii-1.1.10.r3566/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#4 /opt/yii-1.1.10.r3566/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#5 /opt/yii-1.1.10.r3566/framework/yiic.php(33): CConsoleApplication->run()
+#6 /var/www/hosts/gigadb.cogini.com/htdocs/protected/yiic.php(7): require_once()
+#7 /var/www/hosts/gigadb.cogini.com/htdocs/protected/yiic(4): require_once()
+
+2013/01/08 16:00:31 [error] [php] YiiBase::include(MailListController.php): failed to open stream: No such file or directory (/opt/yii-1.1.10.r3566/framework/YiiBase.php:418)
+Stack trace:
+#0 /var/www/hosts/gigadb.cogini.com/htdocs/protected/commands/AutoSendNotificationCommand.php(44): spl_autoload_call()
+#1 /var/www/hosts/gigadb.cogini.com/htdocs/protected/commands/AutoSendNotificationCommand.php(31): AutoSendNotificationCommand->sendBroadcastEmail()
+#2 unknown(0): AutoSendNotificationCommand->actionNotification()
+#3 /opt/yii-1.1.10.r3566/framework/console/CConsoleCommand.php(141): ReflectionMethod->invokeArgs()
+#4 /opt/yii-1.1.10.r3566/framework/console/CConsoleCommandRunner.php(65): AutoSendNotificationCommand->run()
+#5 /opt/yii-1.1.10.r3566/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run()
+#6 /opt/yii-1.1.10.r3566/framework/base/CApplication.php(162): CConsoleApplication->processRequest()
+#7 /opt/yii-1.1.10.r3566/framework/yiic.php(33): CConsoleApplication->run()
+#8 /var/www/hosts/gigadb.cogini.com/htdocs/protected/yiic.php(7): require_once()
+#9 /var/www/hosts/gigadb.cogini.com/htdocs/protected/yiic(4): require_once()
+
