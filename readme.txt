@@ -13,6 +13,7 @@ In my case, it is here:
 
 2. GigaGalaxy:
 2.1 gigadb.xml: Should be put under galaxy-central/tools/data_source/
+The gigadb.xml file is in the gigagalaxy folder.
 
 
 2.2 Add one more line in tool_conf.xml file:
